@@ -32,7 +32,7 @@ The app allows users to enter a city name and displays:
 
 1) Clone the repository
 
-git clone https://github.com/your-username/Weather-App.git
+git clone https://github.com/aksmisr/Weather-App.git
 cd Weather-App
 
 2) Create and activate virtual environment
