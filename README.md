@@ -7,109 +7,115 @@ The app allows users to enter a city name and displays:
 - Weather description
 - Weather emoji based on conditions
 
---------------------------------------------------
+---
 
-🚀 FEATURES
+## 🚀 Features
 
-- Clean PyQt5 GUI
+- Clean and responsive PyQt5 GUI
 - Real-time weather data
 - Emoji-based weather visualization
 - Proper error handling (invalid city, network issues, API errors)
 - Secure API key handling using environment variables
 
---------------------------------------------------
+---
 
-🛠️ TECH STACK
+## 🛠️ Tech Stack
 
 - Python 3
 - PyQt5
 - Requests
 - OpenWeatherMap API
 
---------------------------------------------------
+---
 
-📦 INSTALLATION & SETUP
+## 📦 Installation & Setup
 
-1) Clone the repository
+1. Clone the repository
 
-git clone https://github.com/aksmisr/Weather-App.git
-cd Weather-App
+    git clone https://github.com/aksmisr/Weather-App.git  
+    cd Weather-App
 
-2) Create and activate virtual environment
+2. Create and activate virtual environment
 
-Windows:
-python -m venv .venv
-.\.venv\Scripts\activate
+   Windows (PowerShell):
 
-Linux / macOS:
-python -m venv .venv
-source .venv/bin/activate
+    python -m venv .venv  
+    .\.venv\Scripts\activate
 
-3) Install dependencies
+   Linux / macOS:
 
-pip install -r requirements.txt
+    python -m venv .venv  
+    source .venv/bin/activate
 
---------------------------------------------------
+3. Install dependencies
 
-🔑 API KEY SETUP (IMPORTANT)
+    pip install -r requirements.txt
 
-Create a free API key from:
+---
+
+## 🔑 API Key Setup (IMPORTANT)
+
+Create a free API key from:  
 https://openweathermap.org/api
 
 Windows (PowerShell):
-setx OPENWEATHER_API_KEY "your_api_key_here"
+
+    setx OPENWEATHER_API_KEY "your_api_key_here"
 
 Linux / macOS:
-export OPENWEATHER_API_KEY="your_api_key_here"
+
+    export OPENWEATHER_API_KEY="your_api_key_here"
 
 Restart VS Code or terminal after setting the API key.
 
---------------------------------------------------
+---
 
-▶️ RUN THE APPLICATION
+## ▶️ Run the Application
 
-python main.py
+    python main.py
 
---------------------------------------------------
+---
 
-📁 PROJECT STRUCTURE
+## 📁 Project Structure
 
 Weather-App/
 │
 ├── main.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 
---------------------------------------------------
+---
 
-🔐 SECURITY NOTES
+## 🔐 Security Notes
 
 - API key is NOT hardcoded in the source code
 - Environment variables are used for safety
-- Do NOT push .env files to GitHub
-- Old leaked API keys should be deleted immediately
+- Do NOT push .env or secret files to GitHub
+- Delete leaked API keys immediately if exposed
 
---------------------------------------------------
+---
 
-🧪 COMMON ERRORS & FIXES
+## 🧪 Common Errors & Fixes
 
 401 Unauthorized:
 - OPENWEATHER_API_KEY not set correctly
-- Restart terminal / VS Code
+- Restart terminal or VS Code
 
 City Not Found:
 - Check spelling of the city name
 
---------------------------------------------------
+---
 
-📄 LICENSE
+## 📄 License
 
 This project is created for learning and personal use.
 
---------------------------------------------------
+---
 
-🙌 ACKNOWLEDGEMENTS
+## 🙌 Acknowledgements
 
 - OpenWeatherMap API
 - PyQt5 Documentation
+
+⭐ If you like this project, don’t forget to star the repository!
