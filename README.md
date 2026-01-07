@@ -11,7 +11,7 @@ The app allows users to enter a city name and displays:
 
 ## 🚀 Features
 
-- Clean and responsive PyQt5 GUI
+- Clean PyQt5 GUI
 - Real-time weather data
 - Emoji-based weather visualization
 - Proper error handling (invalid city, network issues, API errors)
@@ -30,24 +30,24 @@ The app allows users to enter a city name and displays:
 
 ## 📦 Installation & Setup
 
-1. Clone the repository
+### Clone the repository
 
-    git clone https://github.com/aksmisr/Weather-App.git  
+    git clone https://github.com/aksmisr/Weather-App.git
     cd Weather-App
 
-2. Create and activate virtual environment
+### Create and activate virtual environment
 
-   Windows (PowerShell):
+Windows (PowerShell):
 
-    python -m venv .venv  
+    python -m venv .venv
     .\.venv\Scripts\activate
 
-   Linux / macOS:
+Linux / macOS:
 
-    python -m venv .venv  
+    python -m venv .venv
     source .venv/bin/activate
 
-3. Install dependencies
+### Install dependencies
 
     pip install -r requirements.txt
 
@@ -55,7 +55,7 @@ The app allows users to enter a city name and displays:
 
 ## 🔑 API Key Setup (IMPORTANT)
 
-Create a free API key from:  
+Create a free API key from:
 https://openweathermap.org/api
 
 Windows (PowerShell):
@@ -78,12 +78,12 @@ Restart VS Code or terminal after setting the API key.
 
 ## 📁 Project Structure
 
-Weather-App/
-│
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+    Weather-App/
+    │
+    ├── main.py
+    ├── requirements.txt
+    ├── .gitignore
+    └── README.md
 
 ---
 
@@ -92,30 +92,16 @@ Weather-App/
 - API key is NOT hardcoded in the source code
 - Environment variables are used for safety
 - Do NOT push .env or secret files to GitHub
-- Delete leaked API keys immediately if exposed
+- Old leaked API keys should be deleted immediately
 
 ---
 
-## 🧪 Common Errors & Fixes
+## 🙌 Author
 
-401 Unauthorized:
-- OPENWEATHER_API_KEY not set correctly
-- Restart terminal or VS Code
-
-City Not Found:
-- Check spelling of the city name
+**Akash Mishra**
 
 ---
 
-## 📄 License
+## ⭐ Support
 
-This project is created for learning and personal use.
-
----
-
-## 🙌 Acknowledgements
-
-- OpenWeatherMap API
-- PyQt5 Documentation
-
-⭐ If you like this project, don’t forget to star the repository!
+If you like this project, don’t forget to **star ⭐ the repository**.
