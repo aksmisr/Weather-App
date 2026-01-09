@@ -98,7 +98,7 @@ Restart VS Code or terminal after setting the API key.
 
 ## 🙌 Author
 
-**Akash Mishra**
+**Aakash Mishra**
 
 ---
 
